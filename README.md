@@ -82,3 +82,8 @@ Step 8— Revoke Access to Your VPN
 Note: We assume that you are still SSH’d into the VPN and logged in as root.
 Run the following command and be sure to replace client below with a unique name for your user/client.
 $ /home/ubuntu/openvpn-server-vagrant/revoke-full.sh client
+
+# Phase Two
+https://serverfault.com/questions/749909/openvpn-openvz-multicast-and-how-to-enable-it
+
+# NOTE: All of the above already works but is a manual setup that is subject to human error. The WIP to convert the above steps into a Docker deployment to save time and more importantly ensure that setup is configured properly. 
